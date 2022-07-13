@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2;
+  color: #8f8f8f;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.9rem;
+  color: #06283D;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #204969;
+  font-size: 1.2rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+
+/* Title */
+#title {
+  background-color: #08FFC8;
+}
+
+.big-title {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.first-part {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* title image */
+.img-properties {
+  position: absolute;
+  transform: rotate(23deg);
+  width: 26%;
+}
+
+/* download-buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Feautres container */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-text {
+  padding: 5%;
+}
+
+.icon-style {
+  margin-bottom: 1rem;
+  color: #08FFC8;
+}
+
+.icon-style:hover {
+  color: #06283D;
+}
+
+/* Testimonials container */
+#testimonials {
+  background-color: #47B5FF;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 25%;
+  border-radius: 100%;
+}
+
+/* Pricing container */
+
+#pricing {
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-img {
+  padding: 5%;
+  border-radius: 100%;
+  width: 90%;
+}
+
+/* Call to action */
+
+#cta {
+  background-color: #08FFC8;
+  padding: 7% 15%;
+}
+
+/* Copyright */
+
+#footer {
+  padding: 7% 15%;
+}
+
+.footer-icons {
+  margin: 0.6rem;
+}
+
+.contact-style {
+  color: black;
+}
+
+.contact-style:hover {
+  color: #47B5FF;
+}
+
+@media (max-width: 989px) {
+
+  .first-part {
+    text-align: center;
+  }
+
+  .img-properties {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
